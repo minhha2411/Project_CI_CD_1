@@ -11,6 +11,7 @@ pipeline {
             steps {
                 echo "Start building stage ...."
                 echo "Test loggout credential ...."
+                echo "In dev enviroment"
             }
         }
         stage('Test') {
