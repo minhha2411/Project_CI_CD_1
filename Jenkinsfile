@@ -8,7 +8,6 @@ pipeline {
             steps {
                 echo "Start building stage ...."
                 echo "Test loggout credential ...."
-                bat 'echo %USER_NAME%'
             }
         }
         stage('Test') {
