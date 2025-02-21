@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo "Start building stage ...."
                 echo "Test loggout credential ...."
-                echo "${env.USER_NAME}"
+                echo '${env.USER_NAME}'
             }
         }
         stage('Test') {
